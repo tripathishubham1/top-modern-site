@@ -1,0 +1,183 @@
+/* ==========================================================================
+   Main CSS Entry Point - Top One Percent Modern
+
+   This file imports all modular CSS files in the correct order.
+   Using @import for development; consider concatenation for production.
+   ========================================================================== */
+
+/* -------------------------------------------------------------------------
+   Layer Order Definition
+   CSS Cascade Layers ensure predictable specificity
+   ------------------------------------------------------------------------- */
+@layer reset, base, layout, components, utilities, animations;
+
+/* -------------------------------------------------------------------------
+   Design Tokens (CSS Custom Properties)
+   Must be imported first as other files depend on these variables
+   ------------------------------------------------------------------------- */
+@import url('variables.css');
+
+/* -------------------------------------------------------------------------
+   Base Styles
+   Reset, typography, and foundational element styles
+   ------------------------------------------------------------------------- */
+@import url('base.css');
+
+/* -------------------------------------------------------------------------
+   Layout
+   Page structure, sections, header, footer, grids
+   ------------------------------------------------------------------------- */
+@import url('layouts.css');
+
+/* -------------------------------------------------------------------------
+   Components
+   Reusable UI elements: buttons, cards, forms, modals, etc.
+   ------------------------------------------------------------------------- */
+@import url('components.css');
+
+/* -------------------------------------------------------------------------
+   Utilities
+   Helper classes for spacing, display, colors, etc.
+   ------------------------------------------------------------------------- */
+@import url('utilities.css');
+
+/* -------------------------------------------------------------------------
+   Animations
+   Keyframes, transitions, and scroll-triggered animations
+   ------------------------------------------------------------------------- */
+@import url('animations.css');
+
+/* -------------------------------------------------------------------------
+   Print Styles
+   Optimizations for print media
+   ------------------------------------------------------------------------- */
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  .header,
+  .footer,
+  .mobile-menu,
+  .whatsapp-float,
+  .mobile-cta {
+    display: none !important;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 2rem 0;
+  }
+}
+
+/* -------------------------------------------------------------------------
+   Critical Above-the-Fold Overrides
+   Emergency fixes and critical path CSS
+   ------------------------------------------------------------------------- */
+
+/* Ensure smooth loading of hero */
+.hero {
+  opacity: 1;
+}
+
+/* Fix for Firefox backdrop-filter */
+@supports not (backdrop-filter: blur(20px)) {
+  .header--solid {
+    background: rgba(255, 255, 255, 0.98);
+  }
+
+  .glass-card,
+  .glass-card-light {
+    background: rgba(255, 255, 255, 0.95);
+  }
+
+  .hero__carousel-overlay {
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    --neutral-60: #555555;
+    --neutral-40: #333333;
+    --glass-bg: rgba(255, 255, 255, 0.9);
+    --glass-border: rgba(0, 0, 0, 0.3);
+  }
+
+  .btn {
+    border-width: 3px;
+  }
+
+  a:focus-visible,
+  button:focus-visible {
+    outline-width: 3px;
+  }
+}
+
+/* Forced colors mode (Windows High Contrast) */
+@media (forced-colors: active) {
+  .btn-primary,
+  .btn-gradient {
+    border: 2px solid currentColor;
+  }
+
+  .score-badge,
+  .badge {
+    border: 2px solid currentColor;
+  }
+}
