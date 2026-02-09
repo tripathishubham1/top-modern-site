@@ -702,6 +702,7 @@
   font-size: var(--text-base);
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.8;
+  text-align: center;
 }
 
 .gmat-mock-section__desc strong {
