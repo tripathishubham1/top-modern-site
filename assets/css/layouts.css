@@ -2080,6 +2080,8 @@
   display: flex;
   gap: var(--space-5);
   width: max-content;
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 .marquee--left .marquee__track {
