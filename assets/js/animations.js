@@ -93,17 +93,17 @@
 
     const testimonials = [
       {
-        image: 'https://top-one-percent.com/assets/images/hero-1.webp',
+        image: 'assets/images/hero-aarthi.webp',
         score: '770',
         exam: 'GMAT',
-        name: 'Kritika Pugalia',
-        school: 'Wharton + Fuqua',
-        achievement: '$188,000 Scholarship',
-        quote: '"Without the tips and tricks that TOP has given, I don\'t think a top percentile would\'ve been possible."',
+        name: 'Aarthi Muthiah',
+        school: 'ISB',
+        achievement: '100% Scholarship',
+        quote: '"The Doubt Support from TOP was one of the most important things for me during preparation."',
         isGre: false
       },
       {
-        image: 'https://top-one-percent.com/assets/images/hero-2.webp',
+        image: 'assets/images/hero-2.webp',
         score: '780',
         exam: 'GMAT',
         name: 'Harshit Jain',
@@ -113,27 +113,57 @@
         isGre: false
       },
       {
-        image: 'https://top-one-percent.com/assets/images/hero-3.webp',
-        score: '770',
+        image: 'assets/images/hero-aadya.webp',
+        score: '760',
         exam: 'GMAT',
-        name: 'Madhura Banerjee',
-        school: 'Columbia + Yale',
-        achievement: '$100,000+ Scholarship',
-        quote: '"I would have been happy with 720 but Sandeep sir pushed me to 770!"',
+        name: 'Aadya Sachdeva',
+        school: 'Yale + Duke',
+        achievement: '$80k Scholarship',
+        quote: '"The structure of TOP\'s material helped me know exactly what to study and when."',
         isGre: false
       },
       {
-        image: 'https://top-one-percent.com/assets/images/hero-4.webp',
-        score: '770',
+        image: 'assets/images/hero-meghal.webp',
+        score: '715',
         exam: 'GMAT',
-        name: 'Vandita Kamath',
+        name: 'Meghal Dubey',
+        school: 'Wharton + CBS + Booth',
+        achievement: '$281k+ Scholarships',
+        quote: '"Following TOP\'s study plan kept my preparation on track every week."',
+        isGre: false
+      },
+      {
+        image: 'assets/images/hero-harjas.webp',
+        score: '750',
+        exam: 'GMAT',
+        name: 'Harjas Gulati',
         school: 'Wharton',
-        achievement: 'Full Scholarship',
-        quote: '"The Doubt Support from TOP was one of the most important things for me during preparation."',
+        achievement: '$100,000 Scholarship',
+        quote: '"Without the tips and tricks that TOP has given, I don\'t think a top percentile would\'ve been possible."',
         isGre: false
       },
       {
-        image: 'https://top-one-percent.com/assets/images/hero-9.webp',
+        image: 'assets/images/hero-muskaan.webp',
+        score: '750',
+        exam: 'GMAT',
+        name: 'Muskaan Sancheti',
+        school: 'Stanford',
+        achievement: 'Stanford Admit',
+        quote: '"TOP\'s content was so aligned with the GMAT that nothing felt unfamiliar on test day."',
+        isGre: false
+      },
+      {
+        image: 'assets/images/hero-shubham.webp',
+        score: '735',
+        exam: 'GMAT',
+        name: 'Shubham Aggarwal',
+        school: 'Harvard',
+        achievement: 'Harvard Admit',
+        quote: '"I trusted TOP\'s process and the feedback after every mock helped me get the score."',
+        isGre: false
+      },
+      {
+        image: 'assets/images/hero-9.webp',
         score: '770',
         exam: 'GMAT',
         name: 'Shloka Bhuvalka',
@@ -143,7 +173,7 @@
         isGre: false
       },
       {
-        image: 'https://top-one-percent.com/assets/images/hero-8.webp',
+        image: 'assets/images/hero-8.webp',
         score: '770',
         exam: 'GMAT',
         name: 'Amit Kumar',
