@@ -2991,11 +2991,14 @@
   background: var(--primary);
   color: var(--white);
   padding: 12px 20px;
+  border: none;
+  cursor: pointer;
   border-radius: var(--radius-lg);
   font-size: var(--text-sm);
   font-weight: var(--font-semibold);
   text-decoration: none;
   transition: all 0.3s ease;
+  width: 100%;
 }
 
 .webinar-card__btn:hover {
