@@ -1311,11 +1311,17 @@
   -webkit-mask-image: radial-gradient(ellipse 60% 80% at 50% 50%, black, transparent);
 }
 
-.gmat-cta__content {
+.gmat-cta__layout {
   position: relative;
   z-index: 1;
-  max-width: 600px;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-12);
+  align-items: center;
+}
+
+.gmat-cta__content {
+  text-align: left;
 }
 
 .gmat-cta__badge {
@@ -1353,9 +1359,27 @@
   margin-bottom: var(--space-8);
 }
 
+.gmat-cta__video {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.4);
+}
+
+.gmat-cta__video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 .gmat-cta__actions {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: var(--space-4);
   flex-wrap: wrap;
   margin-bottom: var(--space-8);
@@ -1363,9 +1387,33 @@
 
 .gmat-cta__info {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: var(--space-6);
   flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .gmat-cta__layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+
+  .gmat-cta__content {
+    text-align: center;
+  }
+
+  .gmat-cta__actions {
+    justify-content: center;
+  }
+
+  .gmat-cta__info {
+    justify-content: center;
+  }
+
+  .gmat-cta__video {
+    max-width: 480px;
+    margin: 0 auto;
+  }
 }
 
 .gmat-cta__info span {

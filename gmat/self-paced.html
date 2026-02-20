@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="GMAT Self-Paced Course by Top One Percent. 100+ hours of HD video content by Sandeep Gupta, copyrighted techniques (OCTAAVE, ACT, ANT, LINGO, ACED, SPAR), 50 mock tests, and 10,000+ practice questions. The only course targeting 99th/100th percentile.">
+  <meta name="description" content="GMAT Self-Paced Course by Top One Percent. The only GMAT Course on the planet that exclusively targets 99th/100th percentile aspirants. Study at your own pace with Sandeep Gupta's copyrighted techniques (OCTAAVE, ACT, ANT, LINGO, ACED, SPAR), 50 mock tests, and 10,000+ practice questions.">
   <title>GMAT Self-Paced Course | Top One Percent - 99th Percentile</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,7 @@
         </ul>
       </nav>
       <div class="header__actions">
-        <a href="#book-demo" class="btn btn-gradient btn-sm"><i class="fas fa-calendar-check"></i> Request a Personal Demo</a>
+        <button data-open-demo class="btn btn-gradient btn-sm"><i class="fas fa-calendar-check"></i> Request a Personal Demo</button>
         <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
           <span class="menu-toggle__line"></span>
           <span class="menu-toggle__line"></span>
@@ -85,7 +85,7 @@
 
         <div class="gmat-hero__badge">
           <span class="gmat-hero__badge-dot"></span>
-          Flexible Learning
+          The 99th Percentile focus program
         </div>
 
         <h1 class="gmat-hero__title">
@@ -93,12 +93,12 @@
           <span class="gmat-hero__title-accent">Self-Paced Course</span>
         </h1>
 
-        <p class="gmat-hero__subtitle">The only GMAT Course on the planet that exclusively targets <strong>99th/100th percentile</strong> aspirants. Study at your own pace with Sandeep Gupta's proven methodology.</p>
+        <p class="gmat-hero__subtitle">The only GMAT Course on the planet that exclusively targets <strong>99th/100th percentile</strong> aspirants.</p>
 
         <div class="gmat-hero__actions">
-          <a href="#book-demo" class="btn btn-white btn-lg">
+          <button data-open-demo class="btn btn-white btn-lg">
             <i class="fas fa-calendar-check"></i> Request a Personal Demo
-          </a>
+          </button>
           <a href="https://wa.me/919739561394" class="btn btn-outline-white btn-lg" target="_blank">
             <i class="fab fa-whatsapp"></i> WhatsApp Us
           </a>
@@ -111,120 +111,366 @@
       <div class="container">
         <div class="sp-stats__grid">
           <div class="sp-stats__item">
-            <div class="sp-stats__number">100+</div>
-            <div class="sp-stats__label">Hours HD Video</div>
+            <div class="sp-stats__number">50</div>
+            <div class="sp-stats__label">Mock Tests</div>
           </div>
           <div class="sp-stats__item">
             <div class="sp-stats__number">10,000+</div>
             <div class="sp-stats__label">Practice Questions</div>
           </div>
           <div class="sp-stats__item">
-            <div class="sp-stats__number">50</div>
-            <div class="sp-stats__label">Mock Tests</div>
+            <div class="sp-stats__number">1 Lakh+</div>
+            <div class="sp-stats__label">KTW Students</div>
           </div>
           <div class="sp-stats__item">
-            <div class="sp-stats__number">18</div>
-            <div class="sp-stats__label">Months Access</div>
+            <div class="sp-stats__number">99th+</div>
+            <div class="sp-stats__label">Percentile Target</div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ========== COURSE DETAILS (2-col layout) ========== -->
+    <!-- ========== SCORER CARDS ========== -->
+    <section class="gmat-proof">
+      <div class="container">
+        <div class="gmat-proof__header">
+          <span class="gmat-proof__eyebrow">99th/100th Percentile Scorers</span>
+          <h2 class="gmat-proof__question">Our Self-Paced Course Results</h2>
+        </div>
+
+        <div class="scorers-carousel">
+          <div class="scorers-carousel__track">
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/hero_image_gmat_8_min_68283120f9.webp" alt="Harshit Jain" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">780</span>
+                <span class="scorer-card__name">Harshit Jain</span>
+                <span class="scorer-card__badge">100th %ile &middot; 6 weeks</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/hero_image_gmat_9_min_49f1f42173.webp" alt="Chetan Sharma" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">770</span>
+                <span class="scorer-card__name">Chetan Sharma</span>
+                <span class="scorer-card__badge">100th %ile &middot; 2 months</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/hero_image_gmat_2_min_5febc2093f.webp" alt="Ananya Gupta" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">770</span>
+                <span class="scorer-card__name">Ananya Gupta</span>
+                <span class="scorer-card__badge">100th %ile &middot; 2 months</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/hero_image_gmat_5_min_80086c52f3.webp" alt="Kriti Pachauri" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">770</span>
+                <span class="scorer-card__name">Kriti Pachauri</span>
+                <span class="scorer-card__badge">100th %ile &middot; 4 weeks</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/hero_image_gmat_6_min_133c5cf8ee.webp" alt="Kritika Pugalia" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">770</span>
+                <span class="scorer-card__name">Kritika Pugalia</span>
+                <span class="scorer-card__badge">100th %ile &middot; 31 days</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/hero_image_gmat_1_min_ded027fa46.webp" alt="Ulka Desai" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">760</span>
+                <span class="scorer-card__name">Ulka Desai</span>
+                <span class="scorer-card__badge">99th %ile &middot; 18 Days</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/Mukul_z_5b95d7b8e1.png" alt="Mukul Gupta" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">745</span>
+                <span class="scorer-card__name">Mukul Gupta</span>
+                <span class="scorer-card__badge">100th %ile &middot; 3 weeks</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/Mihir_Patil_1_fcc8bd04a6.png" alt="Mihir Patil" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">735</span>
+                <span class="scorer-card__name">Mihir Patil</span>
+                <span class="scorer-card__badge">100th %ile &middot; 3 months</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/Dhaval_7eef437b14.png" alt="Dhaval Gupta" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">735</span>
+                <span class="scorer-card__name">Dhaval Gupta</span>
+                <span class="scorer-card__badge">100th %ile &middot; 3 months</span>
+              </div>
+            </div>
+            <!-- Duplicates for seamless loop -->
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/hero_image_gmat_8_min_68283120f9.webp" alt="Harshit Jain" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">780</span>
+                <span class="scorer-card__name">Harshit Jain</span>
+                <span class="scorer-card__badge">100th %ile &middot; 6 weeks</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/hero_image_gmat_9_min_49f1f42173.webp" alt="Chetan Sharma" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">770</span>
+                <span class="scorer-card__name">Chetan Sharma</span>
+                <span class="scorer-card__badge">100th %ile &middot; 2 months</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/hero_image_gmat_2_min_5febc2093f.webp" alt="Ananya Gupta" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">770</span>
+                <span class="scorer-card__name">Ananya Gupta</span>
+                <span class="scorer-card__badge">100th %ile &middot; 2 months</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/hero_image_gmat_5_min_80086c52f3.webp" alt="Kriti Pachauri" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">770</span>
+                <span class="scorer-card__name">Kriti Pachauri</span>
+                <span class="scorer-card__badge">100th %ile &middot; 4 weeks</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/hero_image_gmat_6_min_133c5cf8ee.webp" alt="Kritika Pugalia" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">770</span>
+                <span class="scorer-card__name">Kritika Pugalia</span>
+                <span class="scorer-card__badge">100th %ile &middot; 31 days</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/hero_image_gmat_1_min_ded027fa46.webp" alt="Ulka Desai" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">760</span>
+                <span class="scorer-card__name">Ulka Desai</span>
+                <span class="scorer-card__badge">99th %ile &middot; 18 Days</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/Mukul_z_5b95d7b8e1.png" alt="Mukul Gupta" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">745</span>
+                <span class="scorer-card__name">Mukul Gupta</span>
+                <span class="scorer-card__badge">100th %ile &middot; 3 weeks</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/Mihir_Patil_1_fcc8bd04a6.png" alt="Mihir Patil" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">735</span>
+                <span class="scorer-card__name">Mihir Patil</span>
+                <span class="scorer-card__badge">100th %ile &middot; 3 months</span>
+              </div>
+            </div>
+            <div class="scorer-card">
+              <img src="https://topone-strapi.s3.amazonaws.com/Dhaval_7eef437b14.png" alt="Dhaval Gupta" loading="lazy">
+              <div class="scorer-card__info">
+                <span class="scorer-card__score">735</span>
+                <span class="scorer-card__name">Dhaval Gupta</span>
+                <span class="scorer-card__badge">100th %ile &middot; 3 months</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== VIDEO TESTIMONIALS ========== -->
+    <section class="section bg-gray">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-header__tag">Self-Paced Course Video Testimonials</span>
+          <h2 class="section-header__title">Hear From Our Students</h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="testimonial-card" data-aos="fade-up">
+            <div class="testimonial-card__header">
+              <img src="https://topone-strapi.s3.amazonaws.com/Hitarth_6db295c410.png" alt="Piyush Chaudhary" class="testimonial-card__image">
+              <div class="testimonial-card__info">
+                <div class="testimonial-card__name">Piyush Chaudhary</div>
+                <div class="testimonial-card__school">GMAT Focused Edition &middot; Challenge: CR & RC</div>
+              </div>
+              <div class="score-badge">735</div>
+            </div>
+            <p class="testimonial-card__quote">"Whenever I used to feel down, I used to watch Sandeep Gupta's videos."</p>
+            <a href="https://youtu.be/plsgYNijtBk" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="margin-top: var(--space-3);"><i class="fab fa-youtube"></i> Watch Video</a>
+          </div>
+
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-card__header">
+              <img src="https://topone-strapi.s3.amazonaws.com/Lokesh_b3e3e9295c.png" alt="Shubham Aggarwal" class="testimonial-card__image">
+              <div class="testimonial-card__info">
+                <div class="testimonial-card__name">Shubham Aggarwal</div>
+                <div class="testimonial-card__school">GMAT Focused Edition &middot; Challenge: Data Insight</div>
+              </div>
+              <div class="score-badge">735</div>
+            </div>
+            <p class="testimonial-card__quote">"Without the tips and tricks that TOP has given, I don't think a 100%ile would've been possible."</p>
+            <a href="https://youtu.be/QTk_1kspCbc" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="margin-top: var(--space-3);"><i class="fab fa-youtube"></i> Watch Video</a>
+          </div>
+
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-card__header">
+              <img src="https://topone-strapi.s3.amazonaws.com/Rajat_Garg_copy_11zon_4ceed853a1.png" alt="Dhaval Gupta" class="testimonial-card__image">
+              <div class="testimonial-card__info">
+                <div class="testimonial-card__name">Dhaval Gupta</div>
+                <div class="testimonial-card__school">GMAT Focused Edition &middot; Challenge: Quant & DI</div>
+              </div>
+              <div class="score-badge">735</div>
+            </div>
+            <p class="testimonial-card__quote">"It's purely about what Sandeep sir and TOP's curriculum is telling you to do."</p>
+            <a href="https://youtu.be/BQRzCqV64-E" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="margin-top: var(--space-3);"><i class="fab fa-youtube"></i> Watch Video</a>
+          </div>
+
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-card__header">
+              <img src="https://topone-strapi.s3.amazonaws.com/stories_1_323bde8088.webp" alt="Mihir Patil" class="testimonial-card__image">
+              <div class="testimonial-card__info">
+                <div class="testimonial-card__name">Mihir Patil</div>
+                <div class="testimonial-card__school">GMAT Focused Edition &middot; Challenge: Data Insights</div>
+              </div>
+              <div class="score-badge">735</div>
+            </div>
+            <p class="testimonial-card__quote">"TOP's mocks are super difficult. I knew I'll be fine as long as I could ace the TOP Mock Tests."</p>
+            <a href="https://youtu.be/gxQFya6rb3o" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="margin-top: var(--space-3);"><i class="fab fa-youtube"></i> Watch Video</a>
+          </div>
+        </div>
+
+        <div class="flex-center mt-10" data-aos="fade-up">
+          <a href="../testimonials.html" class="btn btn-secondary btn-lg">
+            <i class="fas fa-star"></i>
+            View All Success Stories
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COURSE DETAILS ========== -->
     <section class="sp-details">
       <div class="container">
         <div class="sp-details__layout">
           <!-- Main Content -->
           <div class="sp-details__main">
-            <h2 class="sp-details__heading">Course Overview</h2>
-            <p class="sp-details__text">Our Self-Paced GMAT Course gives you complete flexibility to prepare around your schedule. Access all the same proven strategies and copyrighted techniques from our Live course, delivered through high-quality video lessons you can watch anytime, anywhere.</p>
+            <h2 class="sp-details__heading">Our formula for the highest number of 99th/100th percentile scorers</h2>
+
+            <h3 class="sp-details__subheading">Self-Paced Course Advantages</h3>
+            <div class="sp-feature-list">
+              <div class="sp-feature-row">
+                <div class="sp-feature-row__icon"><i class="fas fa-user-clock"></i></div>
+                <div>
+                  <h4>Study at Your Own Pace</h4>
+                  <p>Opportunity to study at your own pace, ensuring a highly personalized and effective learning experience.</p>
+                </div>
+              </div>
+              <div class="sp-feature-row">
+                <div class="sp-feature-row__icon"><i class="fas fa-globe-americas"></i></div>
+                <div>
+                  <h4>Convenience & Accessibility</h4>
+                  <p>Utmost convenience and accessibility for individuals with demanding schedules or residing in different time zones.</p>
+                </div>
+              </div>
+              <div class="sp-feature-row">
+                <div class="sp-feature-row__icon"><i class="fas fa-play-circle"></i></div>
+                <div>
+                  <h4>Unrestricted Recorded Lecture Access</h4>
+                  <p>Enjoy unrestricted access to an extensive library of recorded lectures, allowing you to revisit and review course materials as necessary.</p>
+                </div>
+              </div>
+            </div>
 
             <h3 class="sp-details__subheading">What You'll Learn</h3>
             <div class="sp-learn-grid">
               <div class="sp-learn-card">
                 <div class="sp-learn-card__icon"><i class="fas fa-book-reader"></i></div>
-                <h4 class="sp-learn-card__title">Verbal Reasoning</h4>
+                <h4 class="sp-learn-card__title">Verbal</h4>
                 <ul class="sp-learn-card__list">
-                  <li><i class="fas fa-check"></i> OCTAAVE for Reading Comprehension</li>
-                  <li><i class="fas fa-check"></i> ACT & ANT for Critical Reasoning</li>
-                  <li><i class="fas fa-check"></i> 50 Hours Basics + 30 Hours Advanced</li>
-                  <li><i class="fas fa-check"></i> All concepts from 205 to 805 level</li>
+                  <li><i class="fas fa-check"></i> Exclusive Main Sessions by Sandeep Gupta</li>
+                  <li><i class="fas fa-check"></i> Unique Copyrighted Methods- OCTAAVE (RC), ACT & ANT (CR)</li>
+                  <li><i class="fas fa-check"></i> Basic Fundamental + Concepts for RC and CR - 50 hours</li>
+                  <li><i class="fas fa-check"></i> Advanced Marathon Sessions - 30 Hours</li>
+                  <li><i class="fas fa-check"></i> All concepts, from the most basic (205 level) to the most advanced (805 level), are covered in extreme detail</li>
+                  <li><i class="fas fa-check"></i> All the materials you need to ace the Verbal</li>
                 </ul>
               </div>
               <div class="sp-learn-card">
                 <div class="sp-learn-card__icon"><i class="fas fa-calculator"></i></div>
-                <h4 class="sp-learn-card__title">Quantitative Reasoning</h4>
+                <h4 class="sp-learn-card__title">Quant</h4>
                 <ul class="sp-learn-card__list">
-                  <li><i class="fas fa-check"></i> LINGO technique for PS questions</li>
-                  <li><i class="fas fa-check"></i> Number Properties & Algebra</li>
-                  <li><i class="fas fa-check"></i> Word Problems & Rate</li>
-                  <li><i class="fas fa-check"></i> Statistics & Probability</li>
+                  <li><i class="fas fa-check"></i> Exclusive Main Sessions by Sandeep Gupta</li>
+                  <li><i class="fas fa-check"></i> Unique Copyright Methods- LINGO for PS questions</li>
+                  <li><i class="fas fa-check"></i> All concepts, from the most basic (205 level) to the most advanced (805 level), are covered in extreme detail</li>
+                  <li><i class="fas fa-check"></i> All the Materials You Will Ever Need to ace the Quant section</li>
                 </ul>
               </div>
               <div class="sp-learn-card">
                 <div class="sp-learn-card__icon"><i class="fas fa-chart-pie"></i></div>
                 <h4 class="sp-learn-card__title">Data Insights</h4>
                 <ul class="sp-learn-card__list">
-                  <li><i class="fas fa-check"></i> ACED technique for Data Sufficiency</li>
-                  <li><i class="fas fa-check"></i> SPAR technique for Integrated Reasoning</li>
-                  <li><i class="fas fa-check"></i> Multi-Source Reasoning & Table Analysis</li>
-                  <li><i class="fas fa-check"></i> Graphics Interpretation & Two-Part</li>
-                </ul>
-              </div>
-              <div class="sp-learn-card">
-                <div class="sp-learn-card__icon"><i class="fas fa-bullseye"></i></div>
-                <h4 class="sp-learn-card__title">Test Strategy</h4>
-                <ul class="sp-learn-card__list">
-                  <li><i class="fas fa-check"></i> Time Management & Pacing</li>
-                  <li><i class="fas fa-check"></i> Section Order Strategy</li>
-                  <li><i class="fas fa-check"></i> Question Bookmarking Approach</li>
-                  <li><i class="fas fa-check"></i> Mock Test Analysis Framework</li>
+                  <li><i class="fas fa-check"></i> Comprehensive Question types discussions of DI that include: Data Sufficiency, Multi-Source Reasoning, Table Analysis, Graphics Interpretation, and Two-Part Analysis.</li>
+                  <li><i class="fas fa-check"></i> Unique strategies - ACED (DS) & SPAR (IR) by Sandeep Gupta</li>
+                  <li><i class="fas fa-check"></i> All the Materials You Will Ever Need to ace IR and DS</li>
                 </ul>
               </div>
             </div>
 
-            <h3 class="sp-details__subheading">Self-Paced Advantages</h3>
+            <h3 class="sp-details__subheading">Additional Resources & Support</h3>
             <div class="sp-feature-list">
               <div class="sp-feature-row">
-                <div class="sp-feature-row__icon"><i class="fas fa-play-circle"></i></div>
+                <div class="sp-feature-row__icon"><i class="fas fa-clipboard-list"></i></div>
                 <div>
-                  <h4>100+ Hours of HD Video Content</h4>
-                  <p>Comprehensive coverage of every GMAT Focus Edition topic by Sandeep Gupta</p>
+                  <h4>Comprehensive Study Plan and Phase-Wise Schedule</h4>
+                  <p>Customized preparation timeline to guide you through every phase of your GMAT journey</p>
                 </div>
               </div>
               <div class="sp-feature-row">
-                <div class="sp-feature-row__icon"><i class="fas fa-redo"></i></div>
+                <div class="sp-feature-row__icon"><i class="fas fa-question-circle"></i></div>
                 <div>
-                  <h4>Unlimited Rewatches</h4>
-                  <p>Unrestricted access to the entire library of recorded lectures, revisit and review anytime</p>
-                </div>
-              </div>
-              <div class="sp-feature-row">
-                <div class="sp-feature-row__icon"><i class="fas fa-user-clock"></i></div>
-                <div>
-                  <h4>Study at Your Own Pace</h4>
-                  <p>Utmost convenience for individuals with demanding schedules or different time zones</p>
-                </div>
-              </div>
-              <div class="sp-feature-row">
-                <div class="sp-feature-row__icon"><i class="fas fa-laptop"></i></div>
-                <div>
-                  <h4>50 Mock Tests via T.O.P. Portal</h4>
-                  <p>Full-length, sectional, and topic-wise tests with realistic scoring and detailed analytics</p>
+                  <h4>More than 10,000 practice questions</h4>
+                  <p>The maximum by any institute in the world</p>
                 </div>
               </div>
               <div class="sp-feature-row">
                 <div class="sp-feature-row__icon"><i class="fas fa-globe-americas"></i></div>
                 <div>
-                  <h4>Know The World Sessions</h4>
-                  <p>RC accuracy booster attended by 1 Lakh+ MBA students from Harvard, Wharton, Stanford & more</p>
+                  <h4>Know The World (KTW) Sessions</h4>
+                  <p>The Know The World program is an all-inclusive sub-product with Top One Percent's GMAT course. These sessions essentially focus on increasing your RC accuracy to an absolute 100%. KTW sessions are attended by more than 1 Lakh MBA students, including those from places such as Harvard, Wharton, Stanford, Booth, Kellogg, MIT Sloan, and Columbia.</p>
+                </div>
+              </div>
+              <div class="sp-feature-row">
+                <div class="sp-feature-row__icon"><i class="fas fa-laptop"></i></div>
+                <div>
+                  <h4>Mock Portal Access</h4>
+                  <p>Test your speed and accuracy with intensive practice. 50 practice tests that include full-length, sectional, and topic-wise tests for Quant and Verbal</p>
                 </div>
               </div>
               <div class="sp-feature-row">
                 <div class="sp-feature-row__icon"><i class="fas fa-headset"></i></div>
                 <div>
                   <h4>Personalised Support</h4>
-                  <p>One-on-one doubt assistance, guidance on pacing, stamina, concentration & mock performance</p>
+                  <p>Expert guidance on your performance. Get one-on-one doubt assistance and expert guidance on execution, stamina, pacing, concentration, mock performance, and customised content specifically tailored to your progress</p>
+                </div>
+              </div>
+              <div class="sp-feature-row">
+                <div class="sp-feature-row__icon"><i class="fas fa-university"></i></div>
+                <div>
+                  <h4>Profile Evaluation</h4>
+                  <p>Preliminary guidance related to B-School Admissions by our expert Admissions Consultant to help you understand everything you need to know about your journey to reaching your dream B-School</p>
                 </div>
               </div>
             </div>
@@ -233,36 +479,36 @@
           <!-- Sidebar -->
           <div class="sp-details__sidebar">
             <div class="sp-sidebar-card">
-              <span class="sp-sidebar-card__tag">Flexible Learning</span>
+              <span class="sp-sidebar-card__tag">Self-Paced Course</span>
               <h3 class="sp-sidebar-card__title">Self-Paced Course</h3>
-              <p class="sp-sidebar-card__desc">Complete GMAT FE preparation at your own pace</p>
+              <p class="sp-sidebar-card__desc">The only GMAT Course targeting 99th/100th percentile</p>
 
               <div class="sp-sidebar-card__specs">
                 <div class="sp-sidebar-card__spec">
-                  <span>Video Content</span>
-                  <strong>100+ Hours</strong>
+                  <span>Mock Tests</span>
+                  <strong>50</strong>
                 </div>
                 <div class="sp-sidebar-card__spec">
                   <span>Practice Questions</span>
                   <strong>10,000+</strong>
                 </div>
                 <div class="sp-sidebar-card__spec">
-                  <span>Mock Tests</span>
-                  <strong>50</strong>
+                  <span>KTW Sessions</span>
+                  <strong>Included</strong>
                 </div>
                 <div class="sp-sidebar-card__spec">
-                  <span>Study Materials</span>
-                  <strong>5 Books</strong>
+                  <span>Personalised Support</span>
+                  <strong>Included</strong>
                 </div>
                 <div class="sp-sidebar-card__spec">
-                  <span>Access Period</span>
-                  <strong>18 Months</strong>
+                  <span>Profile Evaluation</span>
+                  <strong>Included</strong>
                 </div>
               </div>
 
-              <a href="#book-demo" class="btn btn-primary btn-lg sp-sidebar-card__btn">
+              <button data-open-demo class="btn btn-primary btn-lg sp-sidebar-card__btn">
                 <i class="fas fa-calendar-check"></i> Request a Personal Demo
-              </a>
+              </button>
               <a href="https://wa.me/919739561394" class="btn btn-secondary btn-lg sp-sidebar-card__btn" target="_blank">
                 <i class="fab fa-whatsapp"></i> WhatsApp Us
               </a>
@@ -287,22 +533,22 @@
           <div class="sp-values__card">
             <div class="sp-values__card-number">01</div>
             <h3>Commitment</h3>
-            <p>We're only here for one reason: to help you ace your score! We always go that extra mile. The same is expected of you, be absolutely committed.</p>
+            <p>We're only here for one reason&mdash;to help you ace your score! We always go that extra mile. The same is expected of you&mdash;be absolutely committed</p>
           </div>
           <div class="sp-values__card">
             <div class="sp-values__card-number">02</div>
             <h3>Care</h3>
-            <p>We're here to hold your hand whenever you need us. Nothing makes us happier than seeing our students achieve success, it's our driving force!</p>
+            <p>We're here to hold your hand&mdash;literally!&mdash;whenever you need us. Nothing makes us happier than seeing our students achieve success &mdash; It's our driving Force!</p>
           </div>
           <div class="sp-values__card">
             <div class="sp-values__card-number">03</div>
             <h3>Candor</h3>
-            <p>No false hopes. Your results are in direct correlation with your efforts. We can't do the work for you; if you don't put in the effort, the results won't magically appear!</p>
+            <p>No false hopes &mdash; Your results are in direct correlation with your efforts. We can't do the work for you - if you don't put in the effort, the results won't magically appear!</p>
           </div>
           <div class="sp-values__card">
             <div class="sp-values__card-number">04</div>
             <h3>Class</h3>
-            <p>Nothing but excellence here! You can count on us to provide the absolute best training, no questions asked.</p>
+            <p>Nothing but excellence here! You can count on us to provide the 'absolute-best-training, no questions asked!</p>
           </div>
           <div class="sp-values__card">
             <div class="sp-values__card-number">05</div>
@@ -318,18 +564,24 @@
       <div class="container">
         <p class="sp-schools__text">Our students have had admits to the absolute best places</p>
         <div class="sp-schools__list">
-          <span>Harvard</span>
+          <span>MIT</span>
           <span>Stanford</span>
-          <span>Wharton</span>
-          <span>MIT Sloan</span>
+          <span>Harvard</span>
+          <span>NYU</span>
           <span>Columbia</span>
-          <span>Kellogg</span>
-          <span>Booth</span>
-          <span>Yale</span>
-          <span>NYU Stern</span>
-          <span>Berkeley</span>
+          <span>CMU</span>
+          <span>Cornell</span>
           <span>Oxford</span>
           <span>Cambridge</span>
+          <span>McGill</span>
+          <span>NUS Singapore</span>
+          <span>Georgia Tech</span>
+          <span>UCLA</span>
+          <span>Berkeley</span>
+          <span>Caltech</span>
+          <span>Yale</span>
+          <span>Kellogg</span>
+          <span>Booth</span>
         </div>
       </div>
     </section>
@@ -342,20 +594,20 @@
             <span class="section-eyebrow">FAQs</span>
             <h2 class="gmat-faq-section__title">Frequently Asked Questions</h2>
             <p class="gmat-faq-section__desc">Everything you need to know about our Self-Paced GMAT course.</p>
-            <a href="#book-demo" class="btn btn-primary btn-lg gmat-faq-section__cta">
+            <button data-open-demo class="btn btn-primary btn-lg gmat-faq-section__cta">
               <i class="fas fa-calendar-check"></i> Request a Personal Demo
-            </a>
+            </button>
           </div>
 
           <div class="gmat-faq-section__right">
             <div class="faq-list">
               <div class="faq-item">
                 <button class="faq-question">
-                  <span>Is the material covered in the course enough?</span>
+                  <span>Is the material covered in the course & the resources provided enough?</span>
                   <i class="fas fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                  <p>The resources and materials provided by Top One Percent cover all the concepts, and you shall not need to refer to any other resources throughout your preparation. These comprehensive and vast resources are more than enough for you to achieve a 99th percentile score!</p>
+                  <p>The resources and materials provided by Top One Percent covers all the concepts and you shall not need to refer to any other resources throughout your preparation. These comprehensive and vast resources are more than enough for you to achieve a 99%ile score!</p>
                 </div>
               </div>
 
@@ -365,37 +617,37 @@
                   <i class="fas fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                  <p>Top One Percent's Self-Paced GMAT Course is geared towards a 770+ Score! The copyrighted techniques developed by Sandeep Gupta, including OCTAAVE for Reading Comprehension, ACT for Critical Reasoning, and LINGO for Quantitative Reasoning, have enabled thousands of our students to secure a 99th percentile score on the GMAT!</p>
+                  <p>Top One Percent's Self-Paced GMAT Course GMAT Course is geared towards a 770+ Score! The copyrighted techniques developed by Sandeep Gupta, which include OCTAVE for Reading Comprehension, ACT for Critical Reasoning & TRAPS for Quantitative Reasoning have enabled thousands of our students to secure a 99%ile score on the GMAT!</p>
                 </div>
               </div>
 
               <div class="faq-item">
                 <button class="faq-question">
-                  <span>I am just starting to study for the GMAT. Will this course fit me?</span>
+                  <span>I am just starting to study for the GMAT. Will your course be a good fit for me?</span>
                   <i class="fas fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                  <p>Top One Percent's Self-Paced GMAT Course is tailored to suit the requirements of absolute beginners. The course covers all the basic concepts of the GMAT in extreme detail and our customized study plan helps you prepare efficiently.</p>
+                  <p>Top One Percent's Self-Paced GMAT Course is tailored to suit the requirements of absolute beginners. The Course covers all the basic concepts of the GMAT in extreme detail & our customized Study Plan helps you prepare efficiently.</p>
                 </div>
               </div>
 
               <div class="faq-item">
                 <button class="faq-question">
-                  <span>I am extremely weak in Math. Will your course be a good fit?</span>
+                  <span>I am extremely weak in Math. Will your course be a good fit for me?</span>
                   <i class="fas fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                  <p>All courses of Top One Percent cover the extreme basics of Mathematics. The course doesn't even assume you know numerator, denominator, integer, fractions, or even the fact that a triangle has three sides.</p>
+                  <p>All courses of Top One Percent cover the extreme basics of Mathematics. The Basics sessions and guides are included within the course.Watch what how Dr. Vishal Malhotra went from a 29%ile score to a 99%ile score in Quantitative Reasoning!</p>
                 </div>
               </div>
 
               <div class="faq-item">
                 <button class="faq-question">
-                  <span>I am extremely weak in English. Will your course work for me?</span>
+                  <span>I am extremely weak in English. Will your course be a good fit for me?</span>
                   <i class="fas fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                  <p>All courses of Top One Percent cover the extreme basics of Verbal Reasoning. Your current language skills shall not be a barrier for you to score a 99th percentile with Sandeep Gupta's copyrighted techniques!</p>
+                  <p>All courses of Top One Percent cover the extreme basics of Verbal Reasoning. Your current language skills shall not be a barrier for you to score a 99%ile score with Sandeep Gupta's copyrighted techniques! Watch how Simratpal Singh & Amit Kumar moved past their language barrier to achieve top scores!</p>
                 </div>
               </div>
 
@@ -405,7 +657,7 @@
                   <i class="fas fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                  <p>Yes! Top Indian B-schools like Indian School of Business, IIM Ahmedabad (PGPX), XLRI Jamshedpur and many others accept GMAT for their MBA programs.</p>
+                  <p>Top Indian B-schools like Indian School of Business, IIM Ahmedabad (PGPX), XLRI Jamshedpur and many others accept GMAT</p>
                 </div>
               </div>
 
@@ -415,7 +667,7 @@
                   <i class="fas fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                  <p>You can book your GMAT on any day and at any time of the year. The GMAT also offers the flexibility of giving the exam from your home.</p>
+                  <p>You can book your GMAT on any day & at any time of the year. The GMAT also offers the flexibility of giving the exam from your home.</p>
                 </div>
               </div>
             </div>
@@ -425,25 +677,30 @@
     </section>
 
     <!-- ========== CTA ========== -->
-    <section class="gmat-cta" id="book-demo">
+    <section class="gmat-cta">
       <div class="gmat-cta__bg-grid"></div>
       <div class="container">
-        <div class="gmat-cta__content">
-          <span class="gmat-cta__badge">
-            <i class="fas fa-bolt"></i>
-            Schedule a Personalised Demo Session
-          </span>
-          <h2 class="gmat-cta__title">Make Your Ivy-League Dream School a Reality</h2>
-          <p class="gmat-cta__text">A call/demo focused on maximizing your efforts and reaching the 99th percentile on the GMAT. Tackle challenging questions with Sandeep's unique copyrighted techniques.</p>
-          <div class="gmat-cta__actions">
-            <a href="../contact.html" class="btn btn-white btn-lg">Request a Personal Demo</a>
-            <a href="https://wa.me/919739561394" class="btn btn-outline-white btn-lg" target="_blank">
-              <i class="fab fa-whatsapp"></i> WhatsApp Us
-            </a>
+        <div class="gmat-cta__layout">
+          <div class="gmat-cta__content">
+            <span class="gmat-cta__badge">
+              <i class="fas fa-bolt"></i>
+              Schedule a Personalised Demo Session of our Self-Paced Course Today!
+            </span>
+            <h2 class="gmat-cta__title">Make Your Ivy-League Dream School a Reality</h2>
+            <p class="gmat-cta__text">Still have questions? Jump on a call with us to tackle some of the most challenging GMAT/GRE questions with Sandeep's unique copyrighted techniques.</p>
+            <div class="gmat-cta__actions">
+              <button data-open-demo class="btn btn-white btn-lg">Request a Personal Demo</button>
+              <a href="https://wa.me/919739561394" class="btn btn-outline-white btn-lg" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp Us
+              </a>
+            </div>
+            <div class="gmat-cta__info">
+              <span><i class="fas fa-phone"></i> +91 97395-61394</span>
+              <span><i class="fas fa-envelope"></i> info@top-one-percent.com</span>
+            </div>
           </div>
-          <div class="gmat-cta__info">
-            <span><i class="fas fa-phone"></i> +91 97395-61394</span>
-            <span><i class="fas fa-envelope"></i> info@top-one-percent.com</span>
+          <div class="gmat-cta__video">
+            <iframe src="https://www.youtube.com/embed/ajNhnbWbtsw" title="Top One Percent GMAT Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
           </div>
         </div>
       </div>
