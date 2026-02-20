@@ -348,22 +348,23 @@
 }
 
 .gmat-proof__answer-text {
-  font-size: var(--text-xl);
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
   font-weight: var(--font-bold);
-  color: var(--gray-800);
+  color: var(--gray-900);
+  margin-bottom: var(--space-6);
 }
 
 .gmat-proof__desc {
-  font-size: var(--text-base);
-  color: var(--gray-500);
+  font-size: clamp(1rem, 2vw, 1.15rem);
+  color: var(--gray-800);
   line-height: 1.8;
-  max-width: 720px;
-  margin: 0 auto;
+  max-width: 780px;
+  margin: 0 auto var(--space-4);
 }
 
 .gmat-proof__desc strong {
-  color: var(--primary);
-  font-weight: var(--font-semibold);
+  color: var(--gray-900);
+  font-weight: var(--font-bold);
 }
 
 /* Scorer Cards (carousel styles already exist in layouts.css) */
