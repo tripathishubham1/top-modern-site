@@ -1316,8 +1316,33 @@
   z-index: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--space-12);
+  gap: 0 var(--space-12);
   align-items: center;
+}
+
+.gmat-cta__layout > .gmat-cta__badge {
+  grid-column: 1;
+}
+
+.gmat-cta__layout > .gmat-cta__title {
+  grid-column: 1;
+}
+
+.gmat-cta__layout > .gmat-cta__video {
+  grid-column: 2;
+  grid-row: 1 / -1;
+}
+
+.gmat-cta__layout > .gmat-cta__text {
+  grid-column: 1;
+}
+
+.gmat-cta__layout > .gmat-cta__actions {
+  grid-column: 1;
+}
+
+.gmat-cta__layout > .gmat-cta__info {
+  grid-column: 1;
 }
 
 .gmat-cta__content {
@@ -1395,7 +1420,24 @@
 @media (max-width: 768px) {
   .gmat-cta__layout {
     grid-template-columns: 1fr;
-    gap: var(--space-8);
+    gap: 0;
+    text-align: center;
+  }
+
+  .gmat-cta__layout > .gmat-cta__video {
+    grid-column: 1;
+    grid-row: auto;
+    max-width: 480px;
+    margin: var(--space-6) auto;
+  }
+
+  .gmat-cta__layout > .gmat-cta__badge,
+  .gmat-cta__layout > .gmat-cta__title,
+  .gmat-cta__layout > .gmat-cta__text,
+  .gmat-cta__layout > .gmat-cta__actions,
+  .gmat-cta__layout > .gmat-cta__info {
+    grid-column: 1;
+    grid-row: auto;
   }
 
   .gmat-cta__content {
@@ -1408,11 +1450,6 @@
 
   .gmat-cta__info {
     justify-content: center;
-  }
-
-  .gmat-cta__video {
-    max-width: 480px;
-    margin: 0 auto;
   }
 }
 
